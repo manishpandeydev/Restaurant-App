@@ -1,0 +1,31 @@
+#bag{
+  width: 60vh;
+  height: 100vh;
+  z-index: 100;
+
+  position: fixed;
+  text-align: center;
+  background-color: #fdfdfd;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.items h5{
+  width: 12rem;
+  margin: 0.2rem;
+}
+.items p{
+  margin: 0.2rem;
+}
+h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h3{
+  margin-top: 1rem;
+  font-size: 20px;
+}

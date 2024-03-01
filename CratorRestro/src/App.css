@@ -1,0 +1,23 @@
+
+.px-2{
+display: block;
+padding-top: 6.5px;
+text-decoration: none;
+font-weight: bold;
+color: rgb(5, 5, 5);
+}
+.active1{
+  color: rgb(138, 10, 243) !important;
+  transform: scale(0.9);
+}
+
+.myLink{
+  margin-left: 18px;
+}
+li{
+  font-size: 1.2rem;
+  transition: all 0.4 ease-in-out;
+}
+li:hover{
+  transform: scale(1.1);
+}

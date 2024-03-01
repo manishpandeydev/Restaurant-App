@@ -1,0 +1,30 @@
+.myDiv{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.myForm{
+ background-image: url(https://img.freepik.com/free-photo/rustic-wooden-planks-with-blackboard-background_53876-103852.jpg?w=740&t=st=1709270932~exp=1709271532~hmac=ce6e92d4f22bf838267d98fc3b7529d021824e0c2084c9794a24d4e3eef8a8d6);
+width: 25rem;
+font-size: 1.1rem;
+color: rgb(255, 254, 254);
+font-family: Cera pro;
+margin: 1rem;
+font-weight: bold;
+border-top-left-radius: 2rem;
+border-bottom-right-radius: 2rem;
+height: fit-content;
+padding: 2rem;
+transition: all 0.5s ease-in-out;
+}
+input{
+  box-shadow: 0px 2px 2px black;
+}
+
+.myForm:hover{
+  transform: scale(1.05);
+}
